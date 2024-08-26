@@ -44,4 +44,5 @@
 <option value="prata">PRATA</option>
 <option value="sem_cor" selected>SEM COR</option>
 </select>
+<input type="submit" value="calc">
 </form>

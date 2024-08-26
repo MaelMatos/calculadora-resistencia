@@ -24,5 +24,4 @@ $n = strval($n) + Ω;
 
 echo $n;
 
-
 ?>
