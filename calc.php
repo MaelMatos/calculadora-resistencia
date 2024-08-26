@@ -1,3 +1,6 @@
+<style>
+    *{font-size:1.3 em}
+</style>
 <?php
 //coleta de variaveis
 $c1 = $_GET['c1'];
@@ -17,10 +20,10 @@ $cinza = 8;
 $branco = 9;
 $dourado = -1;
 $prata = -2;
-$sem_cor = 0
+$sem_cor = 0;
 
-$n = intval(strval($$c1) + strval($$c2)) * (10**$$c3);
-$n = strval($n) + Ω;
+$n = intval(strval($$c1) . strval($$c2)) * (10**$$c3);
+$n = strval($n) . 'Ω';
 
 echo $n;
 
